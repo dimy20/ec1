@@ -1,21 +1,41 @@
-# Enzo Santiago Escobar Trindade
+# EC1 - Proyecto
 
-# Boot Assembly Line - Simulador del proceso de arranque
+## Instrucciones para correr el proyecto
 
-Este proyecto es una simulación interactiva que representa el proceso de arranque de un sistema operativo.  
-El jugador debe colocar correctamente los "componentes de arranque" en la línea de ensamblaje adecuada, de acuerdo con su función.
+1. **Clonar el repositorio:**
 
----
+   ```bash
+   git clone https://github.com/dimy20/ec1.git
+   ```
 
-## Requisitos
+2. **Crear un entorno virtual:**
 
-Antes de ejecutar el proyecto, asegúrese de tener instalado:
+   ```bash
+   python3 -m venv venv
+   ```
 
-- **Python 3.10 o superior**
-- **Pyray** (versión de Python de Raylib)
+3. **Activar el entorno virtual:**
 
-Instalar Pyray:
+   - En Linux/macOS:
 
-```bash
-pip install pyray
-# ec1
+     ```bash
+     source venv/bin/activate
+     ```
+
+   - En Windows:
+
+     ```bash
+     venv\Scripts\activate
+     ```
+
+4. **Instalar las dependencias:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Ejecutar el proyecto:**
+
+   ```bash
+   python main.py
+   
